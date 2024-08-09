@@ -1,0 +1,11 @@
+@EndUserText: {
+  label: 'Service Definition for ZC_090824_TEST_DB'
+}
+@ObjectModel: {
+  leadingEntity: {
+    name: 'ZC_090824_TEST_DB'
+  }
+}
+define service ZUI_090824_TEST_DB_O4 provider contracts odata_v4_ui {
+  expose ZC_090824_TEST_DB;
+}

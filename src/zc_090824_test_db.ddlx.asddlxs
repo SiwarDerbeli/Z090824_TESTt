@@ -1,0 +1,105 @@
+@Metadata.layer: #CORE
+@UI.headerInfo.title.type: #STANDARD
+@UI.headerInfo.title.value: 'Testtestid'
+@UI.headerInfo.description.type: #STANDARD
+@UI.headerInfo.description.value: 'Testtestid'
+annotate view ZC_090824_TEST_DB with
+{
+  @UI.facet: [ {
+    label: 'General Information', 
+    id: 'GeneralInfo', 
+    purpose: #STANDARD, 
+    position: 10 , 
+    type: #IDENTIFICATION_REFERENCE
+  } ]
+  @UI.identification: [ {
+    position: 10 , 
+    label: 'testtest'
+  } ]
+  @UI.lineItem: [ {
+    position: 10 , 
+    label: 'testtest'
+  } ]
+  @UI.selectionField: [ {
+    position: 10 
+  } ]
+  Testtestid;
+  
+  @UI.identification: [ {
+    position: 20 , 
+    label: 'testtestname'
+  } ]
+  @UI.lineItem: [ {
+    position: 20 , 
+    label: 'testtestname'
+  } ]
+  @UI.selectionField: [ {
+    position: 20 
+  } ]
+  Testtestname;
+  
+  @UI.identification: [ {
+    position: 30 , 
+    label: 'Created By'
+  } ]
+  @UI.lineItem: [ {
+    position: 30 , 
+    label: 'Created By'
+  } ]
+  @UI.selectionField: [ {
+    position: 30 
+  } ]
+  CreatedBy;
+  
+  @UI.identification: [ {
+    position: 40 , 
+    label: 'Created On'
+  } ]
+  @UI.lineItem: [ {
+    position: 40 , 
+    label: 'Created On'
+  } ]
+  @UI.selectionField: [ {
+    position: 40 
+  } ]
+  CreatedAt;
+  
+  @UI.identification: [ {
+    position: 50 , 
+    label: 'Changed By'
+  } ]
+  @UI.lineItem: [ {
+    position: 50 , 
+    label: 'Changed By'
+  } ]
+  @UI.selectionField: [ {
+    position: 50 
+  } ]
+  LocalLastChangedBy;
+  
+  @UI.identification: [ {
+    position: 60 , 
+    label: 'Changed On'
+  } ]
+  @UI.lineItem: [ {
+    position: 60 , 
+    label: 'Changed On'
+  } ]
+  @UI.selectionField: [ {
+    position: 60 
+  } ]
+  LocalLastChangedAt;
+  
+  @UI.identification: [ {
+    position: 70 , 
+    label: 'Changed On'
+  } ]
+  @UI.lineItem: [ {
+    position: 70 , 
+    label: 'Changed On'
+  } ]
+  @UI.selectionField: [ {
+    position: 70 
+  } ]
+  LastChangedAt;
+}
